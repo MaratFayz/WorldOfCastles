@@ -1,0 +1,736 @@
+{
+  "ID": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "NAME": "GOOD_CAMPAIGN-33",
+  "ISFINISHED": "NO",
+  "TYPE_OF_FILE": "CAMPAIGN",
+  "MISSION":
+  [
+    {
+      "ID": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD",
+      "NAME": "MISSION-1",
+      "ISFINISHED": "NO",
+      "TYPE_OF_FILE": "MISSION",
+      "DEMOSCENE":
+      {
+        "HAVE": "YES",
+        "DATA":
+        [
+          {
+              "WIDTH": 10,
+              "TEXT":
+              [
+                  {
+                      "TEXT": "MISSION-1",
+                      "COLOR_TEXT": "RED",
+                      "COLOR_BACK": "BLACK"
+                  },
+                  {
+                      "TEXT": "ZASTAVKA-1",
+                      "COLOR_TEXT": "BLUE",
+                      "COLOR_BACK": "BLACK"
+                  }
+              ]
+          },
+          {
+              "WIDTH": 10,
+              "TEXT":
+              [
+                  {
+                      "TEXT": "MISSION-1",
+                      "COLOR_TEXT": "RED",
+                      "COLOR_BACK": "BLACK"
+                  },
+                  {
+                      "TEXT": "ZASTAVKA-2",
+                      "COLOR_TEXT": "BLUE",
+                      "COLOR_BACK": "BLACK"
+                  }
+              ]
+          }
+        ]
+      },
+      "CAN_CHOOSE_USERS": "NO",
+      "USERS":
+      [
+        {
+          "NAME": "USER-1",
+          "ISPLAYER": "PLAYER",
+          "ISSTEPPING": "YES",
+          "COLOR": "RED",
+          "CANWINLOSE": "YES",
+          "HEROES":
+          [
+            "SOUL_KILLER"
+          ],
+          "CITIES":
+          [
+            "CITY-1"
+          ],
+          "BUILDINGSonPOLES":
+          [
+
+          ],
+          "MAP":
+          [
+
+          ],
+          "TEAM": "TEAM-1"
+        },
+        {
+          "NAME": "USER-2",
+          "ISPLAYER": "COMPUTER",
+          "ISSTEPPING": "YES",
+          "COLOR": "BLUE",
+          "CANWINLOSE": "YES",
+          "HEROES":
+          [
+            "JUST_HUMAN"
+          ],
+          "CITIES":
+          [
+            "CITY-2"
+          ],
+          "BUILDINGSonPOLES":
+          [
+
+          ],
+          "MAP":
+          [
+
+          ],
+          "TEAM": "TEAM-2"
+        },
+        {
+          "NAME": "USER-NPC",
+          "ISPLAYER": "COMPUTER",
+          "ISSTEPPING": "NO",
+          "COLOR": "WHITE",
+          "CANWINLOSE": "NO",
+          "HEROES":
+          [
+
+          ],
+          "CITIES":
+          [
+
+          ],
+          "BUILDINGSonPOLES":
+          [
+            "OTRYAD-1",
+            "OTRYAD-2",
+            "STOROG_PUNKT",
+            "RESURS-1",
+            "RESURS-2",
+            "RESURS-3",
+            "RESURS-4"
+          ],
+          "MAP":
+          [
+            "MAP_LAYER_FLOOR"
+          ],
+          "TEAM": "TEAM-NPC"
+        }
+      ],
+      "HEROES":
+      {
+          "MAP":
+          {
+            "TYPEOFPOLEHANDLER": "HERO",
+            "DESIGN": "HERO",
+            "ADD_DATA": "HERO"
+          },
+          "HEROES":
+          [
+            {
+              "NAME": "SOUL_KILLER",
+              "CLASS": "WARRIOR",
+              "RACE": "UNDEAD",
+              "MAP":
+              {
+                "X": "3",
+                "Y": "2"
+              },
+              "WARRIORS":
+              [
+                {
+                  "NAME": "WARRIOR-1",
+                  "NUMBER": 2
+                }
+              ],
+              "RUCKSACK":
+              [
+                {
+                  "NAME": "MERCH #1",
+                  "NUMBER": 1
+                }
+              ]
+            },
+            {
+              "NAME": "JUST_HUMAN",
+              "CLASS": "ROGUE",
+              "RACE": "HUMAN",
+              "MAP":
+              {
+                "X": "9",
+                "Y": "8"
+              },
+              "WARRIORS":
+              [
+                {
+                  "NAME": "WARRIOR-2",
+                  "NUMBER": 2
+                }
+              ],
+              "RUCKSACK":
+              [
+                {
+                  "NAME": "MERCH #2",
+                  "NUMBER": 1
+                }
+              ]
+            }
+          ]
+      },
+      "CITIES":
+      {
+          "MAP":
+          {
+            "TYPEOFPOLEHANDLER": "CITY",
+            "DESIGN": "CITY",
+            "ADD_DATA": "CITY"
+          },
+          "CITIES":
+          [
+            {
+              "NAME": "CITY-1",
+              "RACE": "UNDEAD",
+              "MAP":
+              {
+                "X": "2",
+                "Y": "2"
+              },
+              "BUILT_BUILDINGS":
+              [
+
+              ],
+              "WARRIORS":
+              [
+                {
+                  "NAME": "WARRIOR-2",
+                  "NUMBER": 2
+                }
+              ]
+            },
+            {
+              "NAME": "CITY-2",
+              "RACE": "HUMAN",
+              "MAP":
+              {
+                "X": "9",
+                "Y": "9"
+              },
+              "BUILT_BUILDINGS":
+              [
+
+              ],
+              "WARRIORS":
+              [
+                {
+                  "NAME": "WARRIOR-2",
+                  "NUMBER": 2
+                }
+              ]
+            }
+          ]
+      },
+      "TEAM_RELATIONS":
+      {
+        "TEAM-1":
+        {
+          "TEAM-2": "ENEMY",
+          "TEAM-NPC": "NPC"
+        },
+        "TEAM-2":
+        {
+          "TEAM-1": "ENEMY",
+          "TEAM-NPC": "NPC"
+        },
+        "TEAM-NPC":
+        {
+          "TEAM-1": "NPC",
+          "TEAM-2": "NPC"
+        }
+      },
+      "WIN_CONDITION":
+      {
+        "GOLD" : 1000
+      },
+      "MAP":
+      {
+        "WIDTH" : 10,
+        "HEIGHT" : 10,
+        "DESIGN":
+        {
+          "STOP":
+          {
+            "SYMBOL": " ",
+            "SYMBOL_COLOR": "RED",
+            "COLOR_BACK": "RED"
+          },
+          "ROAD":
+          {
+            "SYMBOL": " ",
+            "SYMBOL_COLOR": "GREEN",
+            "COLOR_BACK": "GREEN"
+          },
+          "WATER":
+          {
+            "SYMBOL": " ",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "BLUE"
+          },
+          "BRESURS_WOOD":
+          {
+            "SYMBOL": "W",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "USER_COLORS"
+          },
+          "BRESURS_SERA":
+          {
+            "SYMBOL": "S",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "USER_COLORS"
+          },
+          "OTRYAD":
+          {
+            "SYMBOL": "O",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "USER_COLORS"
+          },
+          "CITY":
+          {
+            "SYMBOL": "C",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "USER_COLORS"
+          },
+          "HERO":
+          {
+            "SYMBOL": "H",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "USER_COLORS"
+          },
+          "CITY_1":
+          {
+            "SYMBOL": "1",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "WHITE"
+          },
+          "CITY_2":
+          {
+            "SYMBOL": "2",
+            "SYMBOL_COLOR": "BLUE",
+            "COLOR_BACK": "WHITE"
+          },
+          "BDEFPOINT":
+          {
+            "SYMBOL": "B",
+            "SYMBOL_COLOR": "CYAN",
+            "COLOR_BACK": "USER_COLORS"
+          }
+        },
+        "ADD_DATA":
+        {
+          "STOP":
+          {
+            "PRIORITET": 0
+          },
+          "ROADWATER":
+          {
+            "PRIORITET": 0
+          },
+          "BRESURS_WOOD":
+          {
+            "PRIORITET": 1
+          },
+          "BRESURS_SERA":
+          {
+            "PRIORITET": 1
+          },
+          "OTRYAD":
+          {
+            "PRIORITET": 1,
+            "WARRIORS":
+            [
+              {
+                "POSSIBILITY": 10,
+                "WARRIORS":
+                [
+                  {
+                    "NAME": "WARRIOR-2",
+                    "NUMBER": 2
+                  },
+                  {
+                    "NAME": "WARRIOR-1",
+                    "NUMBER": 3
+                  }
+                ]
+              },
+              {
+                "POSSIBILITY": 90,
+                "WARRIORS":
+                [
+                  {
+                    "NAME": "WARRIOR-1",
+                    "NUMBER": 2
+                  },
+                  {
+                    "NAME": "WARRIOR-2",
+                    "NUMBER": 3
+                  }
+                ]
+              }
+            ]
+          },
+          "CITY":
+          {
+            "PRIORITET": 2
+          },
+          "HERO":
+          {
+            "PRIORITET": 1
+          },
+          "BDEFPOINT":
+          {
+            "PRIORITET": 1
+          }
+        },
+        "MAP_LAYER_FLOOR":
+        [
+          {"X": "1", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "2", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "3", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "4", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "5", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "6", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "7", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "8", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "9", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "1", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "2", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "2", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "2", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "3", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "3", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "3", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "4", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "4", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "4", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "5", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "5", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "5", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "6", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "6", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "6", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "7", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "7", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "7", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "8", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "8", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "8", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "9", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "9", "Y": "2", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "3", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "4", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "5", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "WATER", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "6", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "7", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "8", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "9", "TYPEOFPOLEHANDLER": "ROAD", "DESIGN": "ROAD", "ADD_DATA": "ROADWATER"},
+          {"X": "9", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "1", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "2", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "3", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "4", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "5", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "6", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "7", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "8", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "9", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"},
+          {"X": "10", "Y": "10", "TYPEOFPOLEHANDLER": "STOP", "DESIGN": "STOP", "ADD_DATA": "STOP"}
+        ],
+        "CITY_PLACES":
+        [
+
+        ],
+        "TEAMS":
+        [
+
+        ]
+      },
+      "WARRIORS":
+      [
+        {
+          "NAME": "WARRIOR-1",
+          "CHARACTERISTICS":
+          {
+            "HEALTH": 100
+          },
+          "SKILLS":
+          [
+            "SKILL-1"
+          ]
+        },
+        {
+          "NAME": "WARRIOR-2",
+          "CHARACTERISTICS":
+          {
+            "HEALTH": 200
+          },
+          "SKILLS":
+          [
+
+          ]
+        }
+      ],
+      "MERCH":
+      [
+        {
+          "NAME": "MERCH #1"
+        },
+        {
+          "NAME": "MERCH #2"
+        }
+      ],
+      "SKILLS":
+      [
+        {
+          "NAME": "SKILL-1",
+          "DESCRIPTION": "BOOST HEALTH of hero's warriors",
+          "TYPE_OF_HANDLER": "HANDLER-1"
+        },
+        {
+          "NAME": "SKILL-2",
+          "DESCRIPTION": "BOOST XXXX",
+          "TYPE_OF_HANDLER": "HANDLER-1"
+        },
+        {
+          "NAME": "SKILL-3",
+          "DESCRIPTION": "BOOST XXXX",
+          "TYPE_OF_HANDLER": "HANDLER-1"
+        },
+        {
+          "NAME": "SKILL-4",
+          "DESCRIPTION": "BOOST XXXX",
+          "TYPE_OF_HANDLER": "HANDLER-1"
+        }
+      ],
+      "HERO_CLASSES":
+      [
+        {
+          "NAME": "ROGUE",
+          "SKILLS":
+          [
+            "SKILL-2"
+          ]
+        },
+        {
+          "NAME": "WARRIOR",
+          "SKILLS":
+          [
+            "SKILL-1"
+          ]
+        }
+      ],
+      "HERO_RACES":
+      [
+        {
+          "NAME": "HUMAN",
+          "SKILLS":
+          [
+            "SKILL-3"
+          ]
+        },
+        {
+          "NAME": "UNDEAD",
+          "SKILLS":
+          [
+            "SKILL-4"
+          ]
+        }
+      ],
+      "BUILDINGS_ON_POLES":
+      [
+        {
+          "NAME": "OTRYAD-1",
+          "MAP":
+          {
+            "X": "5",
+            "Y": "5",
+            "TYPEOFPOLEHANDLER": "OTRYAD",
+            "DESIGN": "OTRYAD",
+            "ADD_DATA": "OTRYAD"
+          }
+        },
+        {
+          "NAME": "OTRYAD-2",
+          "MAP":
+          {
+            "X": "6",
+            "Y": "6",
+            "TYPEOFPOLEHANDLER": "OTRYAD",
+            "DESIGN": "OTRYAD",
+            "ADD_DATA": "OTRYAD"
+          }
+        },
+        {
+          "NAME": "RESURS-1",
+          "MAP":
+          {
+            "X": "2",
+            "Y": "4",
+            "TYPEOFPOLEHANDLER": "BRESURS",
+            "DESIGN": "BRESURS_WOOD",
+            "ADD_DATA": "BRESURS_WOOD"
+          }
+        },
+        {
+          "NAME": "RESURS-2",
+          "MAP":
+          {
+            "X": "4",
+            "Y": "3",
+            "TYPEOFPOLEHANDLER": "BRESURS",
+            "DESIGN": "BRESURS_SERA",
+            "ADD_DATA": "BRESURS_SERA"
+          }
+        },
+        {
+          "NAME": "RESURS-3",
+          "MAP":
+          {
+            "X": "6",
+            "Y": "7",
+            "TYPEOFPOLEHANDLER": "BRESURS",
+            "DESIGN": "BRESURS_WOOD",
+            "ADD_DATA": "BRESURS_WOOD"
+          }
+        },
+        {
+          "NAME": "RESURS-4",
+          "MAP":
+          {
+            "X": "3",
+            "Y": "9",
+            "TYPEOFPOLEHANDLER": "BRESURS",
+            "DESIGN": "BRESURS_SERA",
+            "ADD_DATA": "BRESURS_SERA"
+          }
+        },
+        {
+          "NAME": "STOROG_PUNKT",
+          "MAP":
+          {
+            "X": "5",
+            "Y": "6",
+            "TYPEOFPOLEHANDLER": "CITY",
+            "DESIGN": "BDEFPOINT",
+            "ADD_DATA": "BDEFPOINT"
+          }
+        }
+      ],
+      "CITY_BUILDINGS":
+      [
+        {
+          "NAME": "CITY_BUILDING-1",
+          "DESCRIPTION": "CITY_BUILDING-1111"
+        },
+        {
+          "NAME": "CITY_BUILDING-2",
+          "DESCRIPTION": "CITY_BUILDING-2222"
+        }
+      ],
+      "CITY_RACES":
+      [
+        {
+          "NAME": "UNDEAD",
+          "BUILDINGS":
+          [
+            "CITY_BUILDING-1"
+          ]
+        },
+        {
+          "NAME": "HUMAN",
+          "BUILDINGS":
+          [
+            "CITY_BUILDING-2"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFF",
+      "NAME": "MISSION-2",
+      "ISFINISHED": "YES",
+      "TYPE_OF_FILE": "MISSION",
+      "DEMOSCENE":
+      {
+        "HAVE": "YES",
+        "DATA":
+        [
+          {"SCREEN": "MISSION-1, ZASTAVKA-1"},
+          {"SCREEN": "MISSION-1, ZASTAVKA-2"}
+        ]
+      },
+      "CAN_CHOOSE_USERS": "NO"
+    }
+  ]
+}

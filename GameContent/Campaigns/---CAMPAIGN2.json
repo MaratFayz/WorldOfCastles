@@ -1,0 +1,38 @@
+{
+  "NAME": "CAMPAIGN-2",
+  "FINISHED": "YES",
+  "TYPE": "CAMPAIGN",
+  "MISSIONS":
+  [
+    {
+      "NAME": "MISSION-3",
+      "FINISHED": "NO",
+      "TYPE": "MISSION",
+      "DEMOSCENE": 
+      {
+        "HAVE": "YES",
+        "DATA": 
+        [
+          {"SCREEN": "MISSION-3, ZASTAVKA-1"},
+          {"SCREEN": "MISSION-4, ZASTAVKA-2"}
+        ]
+      },
+      "CAN_CHOOSE_USERS": "NO"
+    },
+    {
+      "NAME": "MISSION-4",
+      "FINISHED": "NO",
+      "TYPE": "MISSION",
+      "DEMOSCENE": 
+      {
+        "HAVE": "YES",
+        "DATA": 
+        [
+          {"SCREEN": "MISSION-3, ZASTAVKA-1"},
+          {"SCREEN": "MISSION-4, ZASTAVKA-2"}
+        ]
+      },
+      "CAN_CHOOSE_USERS": "NO"
+    }
+  ]
+}
